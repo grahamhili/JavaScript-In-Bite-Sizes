@@ -1,4 +1,4 @@
-# JavaScript-In-Bite-Sizes
+# JavaScript In Bite Sizes
 
 A javascript course which introduces the language in small bite sizes.
 
