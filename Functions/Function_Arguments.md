@@ -1,7 +1,7 @@
 Function Arguments
 ------------------
 
-* Function Arguments are untyped
+* Function Arguments are __untyped__
 
 ```javascript
 "use strict";
@@ -15,7 +15,7 @@ console.log(Add('a','b','c'));  // returns abc
 console.log(Add('2','b',3));    // return 2b3
 ```
 
-* Function Arguments can be empty. Empty arguments become undefined in the function.
+* Function Arguments can be empty. Empty arguments become __undefined__ in the function.
 
 ```javascript
 "use strict";
@@ -28,7 +28,7 @@ console.log(Add(1, 2));     // returns NaN
 console.log(Add(1, '2'));   // returns 12undefined
 ```
 
-* If more function arguments are passed to a function the extra arguments are ignored.
+* If more function arguments are passed to a function the extra arguments are __ignored__.
 
 ```javascript
 "use strict";
@@ -38,7 +38,7 @@ function Add(a, b, c) {
 }
 
 console.log(Add(1,2,3,4,5,6,7));      // returns 6
-console.log(Add('a','b','c','d'));  // returns abc
+console.log(Add('a','b','c','d'));    // returns abc
 console.log(Add('2','b',3,'xxx'));    // return 2b3
 ```
 
