@@ -64,5 +64,5 @@ console.log(Add('a', 'b', 'c', 'd'));
 
 console.log(Add());
 // returns 0
-//Arguments Length= 0
+// Arguments Length= 0
 ```
