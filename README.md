@@ -3,4 +3,4 @@
 A javascript course
 
 Functions
-[Function Arguments](../blob/master/Functions/Function_Arguments.md)
+[Function Arguments](https://github.com/grahamhili/JavaScript-In-Bite-Sizes/blob/master/Functions/Function_Arguments.md)
