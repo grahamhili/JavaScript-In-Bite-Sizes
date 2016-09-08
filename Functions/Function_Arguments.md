@@ -42,7 +42,7 @@ console.log(Add('a','b','c','d'));    // returns abc
 console.log(Add('2','b',3,'xxx'));    // return 2b3
 ```
 
-* Functions have a special object called __arguments__ (it is like a array but with limited features)
+* Functions have a special object called __arguments__ which holds all the parameters passed to a function (it is like a array but with limited features).
 
 ```javascript
 "use strict";
