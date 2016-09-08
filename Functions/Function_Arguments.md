@@ -28,7 +28,7 @@ console.log(Add(1, 2));     // returns NaN
 console.log(Add(1, '2'));   // returns 12undefined
 ```
 
-* If more function arguments are passed to a function the extra arguments are __ignored__.
+* If more function arguments are passed to a function the extra arguments are __ignored__ (but can be also access via __arguments__) .
 
 ```javascript
 "use strict";
@@ -42,7 +42,7 @@ console.log(Add('a','b','c','d'));    // returns abc
 console.log(Add('2','b',3,'xxx'));    // return 2b3
 ```
 
-* Functions have a special object called __arguments__
+* Functions have a special object called __arguments__ (it is like a array but with limited features)
 
 ```javascript
 "use strict";
